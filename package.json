@@ -1,0 +1,14 @@
+{
+  "name": "jenkins-demo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Node.js app for a Jenkins and Docker CI/CD demo.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
